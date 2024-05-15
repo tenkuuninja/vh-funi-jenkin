@@ -1,0 +1,29 @@
+[
+  {
+    "password": "admin",
+    "name": "Chúa tể bóng tối",
+    "username": "admin",
+    "email": "admin@gmail.com",
+    "gender": "M",
+    "role": "admin",
+    "id": 1
+  },
+  {
+    "password": "Aa@12345",
+    "name": "Tôn Ngộ không",
+    "username": "tnk_depzai",
+    "email": "tnk_depzai@gmail.com",
+    "gender": "F",
+    "role": "user",
+    "id": 2
+  },
+  {
+    "password": "Aa@12345",
+    "name": "Khách hàng 1",
+    "username": "khachhang1",
+    "email": "khachhang1@gmail.com",
+    "gender": "M",
+    "role": "user",
+    "id": 3
+  }
+]

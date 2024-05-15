@@ -1,0 +1,100 @@
+[
+  {
+    "customer": {
+      "name": "Nguyễn Việt Hoàng",
+      "phone": "0943243573",
+      "gender": "M",
+      "address": "abc, Xã Nguyên Khê, Huyện Đông Anh, Thành phố Hà Nội",
+      "note": "123"
+    },
+    "total": 16494000,
+    "products": [
+      {
+        "quantity": 3,
+        "price": 2999000,
+        "product": {
+          "id": 2,
+          "category": {
+            "id": 1,
+            "name": "Ghế",
+            "description": "Không có mô tả"
+          },
+          "name": "Bàn Copenhague Deux 211",
+          "slug": "",
+          "image": "/images/products/b-2.webp",
+          "price": 2999000,
+          "stock": 100
+        }
+      },
+      {
+        "quantity": 3,
+        "price": 2499000,
+        "product": {
+          "id": 3,
+          "category": {
+            "id": 1,
+            "name": "Ghế",
+            "description": "Không có mô tả"
+          },
+          "name": "Bàn Slit Table",
+          "slug": "",
+          "image": "/images/products/b-3.webp",
+          "price": 2499000,
+          "stock": 100
+        }
+      }
+    ],
+    "status": 0,
+    "createdAt": "2022-06-19T14:23:24.968Z",
+    "id": 1
+  },
+  {
+    "customer": {
+      "name": "Chúa Tể Bóng Tối",
+      "phone": "0943243573",
+      "gender": "M",
+      "address": "abc, Xã Nguyên Khê, Huyện Đông Anh, Thành phố Hà Nội",
+      "note": "123"
+    },
+    "total": 16494000,
+    "products": [
+      {
+        "quantity": 3,
+        "price": 2999000,
+        "product": {
+          "id": 2,
+          "category": {
+            "id": 1,
+            "name": "Ghế",
+            "description": "Không có mô tả"
+          },
+          "name": "Bàn Copenhague Deux 211",
+          "slug": "",
+          "image": "/images/products/b-2.webp",
+          "price": 2999000,
+          "stock": 100
+        }
+      },
+      {
+        "quantity": 3,
+        "price": 2499000,
+        "product": {
+          "id": 3,
+          "category": {
+            "id": 1,
+            "name": "Ghế",
+            "description": "Không có mô tả"
+          },
+          "name": "Bàn Slit Table",
+          "slug": "",
+          "image": "/images/products/b-3.webp",
+          "price": 2499000,
+          "stock": 100
+        }
+      }
+    ],
+    "status": 0,
+    "createdAt": "2022-06-19T14:23:24.968Z",
+    "id": 2
+  }
+]

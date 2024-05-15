@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Ghế",
+    "description": "Không có mô tả"
+  },
+  {
+    "id": 2,
+    "name": "Bàn",
+    "description": "Không có mô tả"
+  },
+  {
+    "id": 3,
+    "name": "Giường",
+    "description": "Không có mô tả"
+  },
+  {
+    "id": 4,
+    "name": "Đèn",
+    "description": "Không có mô tả"
+  },
+  {
+    "id": 5,
+    "name": "Cây cảnh",
+    "description": "Không có mô tả"
+  },
+  {
+    "id": 6,
+    "name": "Đồ dùng nhà tắm",
+    "description": "Không có mô tả"
+  }
+]
