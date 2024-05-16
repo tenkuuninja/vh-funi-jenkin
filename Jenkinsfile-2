@@ -22,7 +22,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 try {
-                  timeout(time: 5, unit: ""MINUTES) {
+                  timeout(time: 5, unit: "MINUTES") {
                     env.shouldDeploy = input messages: "Do you want deploy?", parameters: [choice(name: 'deploy', choices: "No/nYes")]
                     if (env.shouldDeploy == 'Yes') {
                       sh 'nohup npx serve -s build 2>&1 &'
