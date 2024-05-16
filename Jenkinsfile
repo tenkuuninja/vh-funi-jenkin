@@ -15,6 +15,7 @@ pipeline {
         }
         stage('Build') {
             steps {
+                sh "nohup npx serve -s build -l 3000 &"
                 sh "npm install --legacy-peer-deps"
                 sh "npm run build"
             }
