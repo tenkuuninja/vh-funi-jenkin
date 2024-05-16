@@ -26,7 +26,7 @@ pipeline {
                       timeout(time: 5, unit: "MINUTES") {
                         env.shouldDeploy = input message: "Do you want deploy?", parameters: [choice(name: 'deploy', choices: "No\nYes")]
                         if (env.shouldDeploy == 'Yes') {
-                          sh 'nohup npx serve -s build -l 3001 2>&1 &'
+                          sh "nohup npx serve -s build -l 3001 2>&1 &"
                         }
                       }
                     } catch (Exception error) {
