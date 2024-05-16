@@ -28,7 +28,7 @@ pipeline {
                       sh 'nohup npx serve -s build 2>&1 &'
                     }
                   }
-                } catch (Execption error) {
+                } catch (Exception error) {
                 
                 }
                 
