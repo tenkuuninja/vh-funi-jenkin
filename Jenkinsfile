@@ -23,7 +23,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // sh 'nohup npx serve -s build 2>&1 &'
-                // sh 'npx forever start -c "npx serve -s build"'
+                // sh 'npx forever start -c "npx serve -s build"' 
                 sh "nohup npx serve -s build -l 3000 2>&1 &"
             }
         }
