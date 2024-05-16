@@ -17,12 +17,18 @@ pipeline {
            }
         }
         stage('Build') {
+            when {
+                branch 'release'
+            }
             steps {
                 sh "npm install --legacy-peer-deps"
                 sh "npm run build"
             }
         }
         stage('Deploy') {
+            when {
+                branch 'release'
+            }
             steps {
                 sh 'nohup npx serve -s build 2>&1 &'
             }
