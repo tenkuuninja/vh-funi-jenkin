@@ -4,6 +4,8 @@ pipeline {
     tools {
         nodejs 'Nodejs 16.20.2'
     }
+  
+    when { branch 'release' }
 
     stages {
         stage('Checkout') {
