@@ -66,7 +66,7 @@ const HomePage = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>Trang chủ | Nội thất Việt Hoàng 123</title>
+        <title>Trang chủ | Nội thất Việt Hoàng 123456</title>
       </Helmet>
       <div className="mb-8">
         <Slider {...settings}>
